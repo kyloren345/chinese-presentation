@@ -149,9 +149,20 @@
   border-radius: 2px;
 }
 .navigation-btn:hover {
-  color: white;
+  color: black;
   transition: ease 0.3s;
-  background-color: black;
+  background-color: white;
+}
+
+a {
+  color: #000;
+  /* Optionally, you can remove the underline from links */
+  text-decoration: none;
+}
+
+/* Apply a different color when the link is hovered */
+a:hover {
+  color: #444;
 }
 .next-btn {
   left: 880px;
